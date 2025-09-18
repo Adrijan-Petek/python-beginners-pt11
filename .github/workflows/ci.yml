@@ -21,4 +21,5 @@ jobs:
           pip install pytest
       - name: Run tests for part11
         run: |
+          export PYTHONPATH=.
           pytest -q
